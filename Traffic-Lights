@@ -1,0 +1,72 @@
+int red = 7; //7: The pin number changes to which the user uses; same for yellow and green
+int yellow = 8;
+int green = 10;
+
+void setup(){
+  
+  pinMode(red, OUTPUT);
+  pinMode(yellow, OUTPUT);
+  pinMode(green,  OUTPUT);
+  
+}
+void loop(){
+digitalWrite(red, HIGH);
+ delay(20000); //you can change the time as required
+digitalWrite(red,  LOW);
+  
+  digitalWrite(yellow, HIGH);
+delay(2000);
+  digitalWrite(yellow,  LOW);
+delay(1000);
+
+  digitalWrite(yellow, HIGH);
+delay(2000);
+  digitalWrite(yellow,  LOW);
+delay(1000);
+
+  digitalWrite(yellow, HIGH);
+delay(2000);
+  digitalWrite(yellow,  LOW);
+delay(1000);
+  
+  digitalWrite(yellow, HIGH);
+delay(2000);
+  digitalWrite(yellow, LOW);
+delay(1000);
+  
+  digitalWrite(yellow, HIGH);
+delay(2000);
+  digitalWrite(yellow, LOW);
+delay(1000);
+  
+digitalWrite(green, HIGH);
+delay(25000);
+digitalWrite(green,  LOW);
+//  
+digitalWrite(yellow, HIGH);
+delay(800);
+  digitalWrite(yellow,  LOW);
+delay(400);
+
+  digitalWrite(yellow, HIGH);
+delay(800);
+  digitalWrite(yellow,  LOW);
+delay(400);
+
+  digitalWrite(yellow, HIGH);
+delay(800);  
+  digitalWrite(yellow, LOW);
+delay(400);
+  
+  digitalWrite(yellow, HIGH);
+delay(800);
+  digitalWrite(yellow, LOW);
+delay(400);
+  
+  digitalWrite(yellow, HIGH);
+delay(800);
+  digitalWrite(yellow, LOW);
+delay(400);
+  
+  
+}
